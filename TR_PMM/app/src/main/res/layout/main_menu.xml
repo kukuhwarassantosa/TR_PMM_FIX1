@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/mainmenu">
+
+
+    <Button
+        android:id="@+id/btn_math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Math"
+    />
+    <Button
+        android:id="@+id/btn_physics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Physics"
+        android:layout_below="@+id/btn_math"
+        />
+
+    <Button
+        android:id="@+id/btn_biology"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biology"
+        android:layout_below="@+id/btn_physics"
+        />
+
+    <Button
+        android:id="@+id/btn_Chemistry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemistry"
+        android:layout_alignParentBottom="true"
+
+        />
+</RelativeLayout>
